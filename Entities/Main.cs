@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kodlama_io_Pair4.Entities;
 
-public class Main
+internal class Main
 {
 
     Instructor teacher1 = new Instructor(1, "Engin Demirog");
@@ -40,7 +40,6 @@ public class Main
 
     Courses course8 = new Courses(8, "Programlamaya Giriş için Temel Kurs",
 "PYTHON, JAVA, C# gibi tüm programlama dilleri için temel programlama mantığını anlaşılır örneklerle öğrenin.", 1, 1);
-
 
 
 

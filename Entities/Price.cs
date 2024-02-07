@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Kodlama_io_Pair4.Entities;
-public class Price
+internal class Price
 {
     public Price(int id, double price)
     {

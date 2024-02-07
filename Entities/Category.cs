@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kodlama_io_Pair4.Entities;
 
-public class Category
+internal class Category
 {
     public Category(int id, string category_name)
     {

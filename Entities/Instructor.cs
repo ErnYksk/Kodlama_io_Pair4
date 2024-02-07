@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kodlama_io_Pair4.Entities;
 
-public class Instructor
+internal class Instructor
 {
     public Instructor(int id, string name)
     {
